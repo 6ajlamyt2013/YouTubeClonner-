@@ -2,7 +2,7 @@ YouTubeClonner
 ==========
 
 ## Environment Setup
-1. Install the required libraries by running the following commands:
+Install the required libraries by running the following commands:
 
 Run the command:
 
@@ -30,6 +30,6 @@ Usage
 - Upon rerunning the script, it will check for already downloaded videos to prevent duplicates.
 
 ## Code Overview
-1. The `get_channel_videos(channel_url)` function retrieves information about the videos from the YouTube channel and returns a dictionary with video titles and URLs.
-2. The `download_video(video_dict)` function downloads videos from the channel using the provided dictionary with video information.
-3. The `check_video_integrity(video_path)` function verifies the integrity of the video using ffmpeg.
+The `get_channel_videos(channel_url)` function retrieves information about the videos from the YouTube channel and returns a dictionary with video titles and URLs.
+The `download_video(video_dict)` function downloads videos from the channel using the provided dictionary with video information.
+The `check_video_integrity(video_path)` function verifies the integrity of the video using ffmpeg.
